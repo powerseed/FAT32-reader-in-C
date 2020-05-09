@@ -10,7 +10,7 @@ A program written in C that reads FAT32 disk images and prints out the file stru
 * Issue `./fat32 [imagename] list` to run the program in "list" mode. 
 * Issue `./fat32 imagename get [absolute path]` to run the program in "get" mode.
 
-# Note:
-My solution:
-* supports **long name** in both "**list**" and "**get**" mode.
-* only prints .txt files in "get" mode. 
+# Modes:
+* The info command: Print information about the drive. 
+* The list command: Output all files and directories on the drive. 
+* The get command: Be able to fetch, and return a file from the drive. The command, assuming your program is named `fat32` would be `./fat32 imagename get path/to/file.txt`. The file will be written out as a file to the same directory as the program with the same name as the file in the FAT32 image.
