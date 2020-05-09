@@ -5,7 +5,8 @@ A program written in C that reads FAT32 disk images and prints out the file stru
 
 # How to run:
 1. Issue `make`
-2. * Issue `./fat32 [imagename] info` to run the program in "info" mode. 
+2. 
+* Issue `./fat32 [imagename] info` to run the program in "info" mode. 
 * Issue `./fat32 [imagename] list` to run the program in "list" mode. 
 * Issue `./fat32 imagename get [absolute path]` to run the program in "get" mode.
 
